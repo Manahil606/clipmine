@@ -1,0 +1,275 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+
+.header-container{
+  height:80px;
+  display:flex;
+background-color: aliceblue;
+padding: 0px 12px;
+align-items: center;
+
+    }
+.header-sec{
+    min-width:100px ;
+    width:100%;
+    max-width:280px;
+     display: flex;
+     justify-content: space-between;
+     padding:0px 14px;
+}
+.header-space{
+    flex-grow: 1;
+}
+
+.main-container{
+   background-image:url('abc.jpg');
+height:600px;
+display: flex ;
+flex-direction: column;
+width:100%;
+align-items: center;
+background-size: cover;
+background-position:50% 70%;
+color:aliceblue;
+justify-content: center;
+gap: 10px;
+padding: 0 10px;
+
+}
+
+.card-containers{
+    display: flex;
+    width:100%;
+     justify-content: space-around;
+     flex-wrap: wrap;
+     column-gap: 10px;
+     row-gap: 20px;
+     padding: 0 10px;
+}
+.card-box{
+    width: 360px;
+    overflow: hidden;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    border-radius: 6px;
+    padding: 0px;
+}
+.card-box-img{
+    height: 220px; 
+    width: 100%;
+    object-fit: cover;
+}
+.tag-price{
+     height:20px;
+    display: flex;
+}   
+
+.em-tag{
+    display: flex;
+    gap: 10px   ;
+    align-items: center ;
+    /* height:20px; */
+}
+.featcher-container{
+display: flex;
+justify-content: space-around;
+flex-wrap: wrap;
+column-gap: 10px;
+row-gap: 20px;
+padding: 0 10px;
+
+}
+.featcher-card{
+width: 360px;
+text-align: center;
+box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+.feature-img{
+width: 100%;
+height: 140px;
+object-fit: cover;
+}
+.viewers{
+margin-top: 70px;
+text-align: center;
+align-items: center ;
+}
+.sharing{
+    margin: 20px;;
+}
+.embedding{
+    margin-top: 70px;
+    text-align: center;
+    font-size: 13px;
+}
+.featuring{
+margin-top: 30px  ;
+text-align: center;
+
+}
+
+.fits{
+    text-align: center;
+    margin-top: 20px;
+    font-weight: 600px;
+    font-size: 30px;
+}
+
+.Benefit-container{
+  
+display: flex;
+flex-direction: column;
+align-items: center;
+row-gap: 50px;
+padding: 0 10px;
+}
+   
+
+
+.benefits{
+    min-width: 340px;
+  width: 100%;
+  max-width: 800px;
+    display: flex;
+    justify-content:center;
+     align-items: center;
+     column-gap: 20px;
+     box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+     padding: 5px;
+   
+}
+
+.collections{
+  font-size: 29px;
+  font-weight: 900;
+  margin-top: 20px;
+  text-align: center;
+  margin-bottom: 30px;
+  
+}
+
+.startup-container{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap:20px
+}
+.startup-card{
+height: 180px;
+width: 400px;
+overflow: hidden;
+position: relative;
+}
+
+.startup-img{
+    height:100%;
+    
+}
+.startup-text{
+    position:absolute;
+    top: 40px;
+    left:35%;
+    color:white;
+}
+
+
+.use{
+   text-align: center;
+    font-size: 40px;
+    margin-top: 30px;
+}
+
+.blackbox-container{
+    display: flex;
+    background-color:rgba(248, 238, 238, 0.726);
+    width: 100%;
+      justify-content:space-around;
+      flex-wrap: wrap;
+      column-gap: 10px;
+      row-gap: 20px ;
+      padding: 40px 10px;
+     
+
+}
+
+.user-container{
+    height:180px;
+    width:360px;
+    
+
+}
+
+.input-container{
+    text-align: center;
+    font-size: 25px;
+  
+
+}
+.form-container{
+ height:40px;
+ width:400px;
+ 
+}
+
+.button-container{
+    height:40px;
+    width:70px;
+    background-color: blueviolet;
+     
+
+}
+.tag-container{
+  text-align: center;
+ 
+}
+
+.Platforms-container{
+    text-align: center;
+   font-size: 30px;
+   margin-top: 10px;
+  
+}
+.Apps-container{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap:10px
+    
+
+}
+
+
+.contact-container{
+    background-color: black;
+    display:flex;
+    height:40px;
+ justify-content: center;
+ margin-top: 10px;
+ color: aliceblue;
+ padding-top: 10px;
+ gap:5px;
+
+}
+.privacy{
+    background-color: black;
+    display: flex;
+    justify-content: center;
+   color:antiquewhite;
+}
+
+
+@media (max-width: 650px) {
+   .header-container{
+    display: none;
+   }
+}
+
+@media (max-width: 550px) {
+ .benefits{
+    flex-wrap: wrap;
+    text-align: center;
+ }
+}
